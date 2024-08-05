@@ -1,0 +1,362 @@
+[
+  {
+    "uri": "Feature/asignarChofer.feature",
+    "id": "asignar-veh\u00edculo-viaje-chofer",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Asignar Veh\u00edculo Viaje Chofer",
+    "description": "",
+    "elements": [
+      {
+        "id": "ingresar-correo-en-formato-no-valido",
+        "line": 3,
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Ingresar correo en formato no valido",
+        "description": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 4,
+            "name": "Se inicia el navegador",
+            "result": {
+              "status": "passed",
+              "duration": 3.4885611534118652
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 5,
+            "name": "Entra a la opci\u00f3n de Iniciar Sesion",
+            "result": {
+              "status": "passed",
+              "duration": 0.2766270637512207
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 6,
+            "name": "Ingresa el correo \"fsquiroga2espe.edu.ec\"",
+            "result": {
+              "status": "passed",
+              "duration": 0.32534170150756836
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 7,
+            "name": "Ingresa contrasena \"123456789\"",
+            "result": {
+              "status": "passed",
+              "duration": 0.2143096923828125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 8,
+            "name": "Click en el Bot\u00f3n Iniciar Sesion",
+            "result": {
+              "status": "passed",
+              "duration": 0.2300856113433838
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 9,
+            "name": "Observar el mensaje de confirmacion",
+            "result": {
+              "status": "passed",
+              "duration": 0.19103431701660156
+            }
+          }
+        ]
+      },
+      {
+        "id": "ingresar-contrasena-en-formato-no-valido",
+        "line": 11,
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Ingresar contrasena en formato no valido",
+        "description": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 12,
+            "name": "Se inicia el navegador",
+            "result": {
+              "status": "passed",
+              "duration": 1.47163987159729
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 13,
+            "name": "Entra a la opci\u00f3n de Iniciar Sesion",
+            "result": {
+              "status": "passed",
+              "duration": 0.26926612854003906
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 14,
+            "name": "Ingresa el correo \"fsquiroga2@espe.edu.ec\"",
+            "result": {
+              "status": "passed",
+              "duration": 0.28435659408569336
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 15,
+            "name": "Ingresa contrasena \"123456\"",
+            "result": {
+              "status": "passed",
+              "duration": 0.20035600662231445
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 16,
+            "name": "Click en el Bot\u00f3n Iniciar Sesion",
+            "result": {
+              "status": "passed",
+              "duration": 0.2543773651123047
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 17,
+            "name": "Observar el mensaje de confirmacion",
+            "result": {
+              "status": "passed",
+              "duration": 0.20137977600097656
+            }
+          }
+        ]
+      },
+      {
+        "id": "ingresar-correo-no-valido",
+        "line": 19,
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Ingresar correo no valido",
+        "description": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 20,
+            "name": "Se inicia el navegador",
+            "result": {
+              "status": "passed",
+              "duration": 1.490628719329834
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 21,
+            "name": "Entra a la opci\u00f3n de Iniciar Sesion",
+            "result": {
+              "status": "passed",
+              "duration": 0.25523996353149414
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 22,
+            "name": "Ingresa el correo \"pedrosanchez@espe.edu.ec\"",
+            "result": {
+              "status": "passed",
+              "duration": 0.3194272518157959
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 23,
+            "name": "Ingresa contrasena \"123456789\"",
+            "result": {
+              "status": "passed",
+              "duration": 0.22382831573486328
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 24,
+            "name": "Click en el Bot\u00f3n Iniciar Sesion",
+            "result": {
+              "status": "passed",
+              "duration": 0.17940998077392578
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 25,
+            "name": "Observar el mensaje de confirmacion",
+            "result": {
+              "status": "passed",
+              "duration": 0.1219472885131836
+            }
+          }
+        ]
+      },
+      {
+        "id": "ingresar-contrasena-no-valido",
+        "line": 27,
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Ingresar contrasena no valido",
+        "description": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 28,
+            "name": "Se inicia el navegador",
+            "result": {
+              "status": "passed",
+              "duration": 1.457636833190918
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 29,
+            "name": "Entra a la opci\u00f3n de Iniciar Sesion",
+            "result": {
+              "status": "passed",
+              "duration": 0.23438811302185059
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 30,
+            "name": "Ingresa el correo \"fsquiroga2@espe.edu.ec\"",
+            "result": {
+              "status": "passed",
+              "duration": 0.2918717861175537
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 31,
+            "name": "Ingresa contrasena \"1234567890\"",
+            "result": {
+              "status": "passed",
+              "duration": 0.20054316520690918
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 32,
+            "name": "Click en el Bot\u00f3n Iniciar Sesion",
+            "result": {
+              "status": "passed",
+              "duration": 0.17003178596496582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 33,
+            "name": "Observar el mensaje de confirmacion",
+            "result": {
+              "status": "passed",
+              "duration": 0.12589812278747559
+            }
+          }
+        ]
+      },
+      {
+        "id": "ingresar-credenciales-correctas",
+        "line": 35,
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Ingresar credenciales correctas",
+        "description": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 36,
+            "name": "Se inicia el navegador",
+            "result": {
+              "status": "passed",
+              "duration": 1.4569091796875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 37,
+            "name": "Entra a la opci\u00f3n de Iniciar Sesion",
+            "result": {
+              "status": "passed",
+              "duration": 0.22508645057678223
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 38,
+            "name": "Ingresa el correo \"fsquiroga2@espe.edu.ec\"",
+            "result": {
+              "status": "passed",
+              "duration": 0.290358304977417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 39,
+            "name": "Ingresa contrasena \"123456789\"",
+            "result": {
+              "status": "passed",
+              "duration": 0.21647334098815918
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 40,
+            "name": "Click en el Bot\u00f3n Iniciar Sesion",
+            "result": {
+              "status": "passed",
+              "duration": 0.17711830139160156
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 41,
+            "name": "Observar el mensaje de confirmacion",
+            "result": {
+              "status": "passed",
+              "duration": 0.12346720695495605
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
