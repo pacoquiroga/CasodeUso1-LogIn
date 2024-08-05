@@ -1,5 +1,4 @@
-Feature: Asignar Vehículo Viaje Chofer
-
+Feature: LogIn
   Scenario: Ingresar correo en formato no valido
     Given Se inicia el navegador
     When Entra a la opción de Iniciar Sesion
